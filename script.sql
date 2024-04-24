@@ -1,0 +1,9 @@
+CREATE TABLE usuarios (
+id SERIAL PRIMARY KEY,
+nome VARCHAR(100) NOT NULL,
+sobrenome VARCHAR(100) NOT NULL,
+data_aniversario DATE NOT NULL,
+email VARCHAR(100) NOT NULL,
+signo VARCHAR(100),
+idade INTEGER
+);
